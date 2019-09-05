@@ -7,7 +7,13 @@ import comidas.*
  */
  
 object pepita {
-	var energia = 0
+	var energia  
 	method energia() { return energia }
 	method comer(cosa, gramos) { energia += cosa.energiaPorGramo() * gramos }
+	method volarDestino(destino){}
+}
+
+object patagonia{
+	var patagonia
+	return destino = patagonia
 }

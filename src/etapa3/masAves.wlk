@@ -8,6 +8,9 @@ object pepon {
 	method volar(kms) { energia -= kms * 0.5  + 1}          
 	method haceLoQueQuieras() {self.volar(1) }  
 }
+
+// implementar el objeto entero, salvo haceLoQueQuieras que lo damos hecho
+// ayuda: conviene ponerle dos atributos
 object pipa {
 	var gramosQueComio = 0
 	var kmsQueVolo = 0
